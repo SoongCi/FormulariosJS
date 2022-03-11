@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Concert+One&display=swap');
+
+.app{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(2, 32, 30);
+  background: linear-gradient(rgb(1, 22, 20), rgb(3, 75, 47));
+}
+
+.bodyPag {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(2, 32, 30);
+  background: linear-gradient(rgb(1, 22, 20), rgb(3, 75, 47));
+}
+
+/*Principal*/
+
+.imgenCentral{
+  height: 500px;
+  cursor: pointer;
+  object-fit: contain;
+  border-radius: 100%;
+}
+
+.imgenCentral:hover{
+  -webkit-filter: saturate(250%);
+  filter: saturate(250%);
+}
+
+/*Botones*/
+
+.btnSup{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border: 1px;
+  border-color: rgb(1, 49, 33);
+  margin: 5% 1% 2% 1%;
+  background-color: rgb(0, 90, 60);
+  padding: 1.5%;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.btnSup:hover{
+  background-color: rgb(0, 143, 59);
+  box-shadow: 0 0 20px rgb(0, 143, 59);
+  filter: brightness(125%);
+}
+
+.btnInf{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border: 1px;
+  border-color: rgb(1, 49, 33);
+  margin: 2% 1% 5% 1%;
+  background-color: rgb(0, 143, 59);
+  padding: 1.5%;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.btnInf:hover {
+  background-color: rgb(0, 90, 60);
+  background: linear-gradient(rgb(0, 90, 60), rgb(24, 177, 88));
+}
+
+
+/*Contacto*/
+
+.formu{
+  text-align: justify;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 20%;
+  padding: 2%;
+  margin: 1% 0 1% 38%;
+  border-radius: 5%;
+}
+
+h1{
+  color: rgb(1, 49, 33);
+}
+
+.btnEnviar{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border: 1px;
+  border-color: rgb(1, 49, 33);
+  margin: 2% 1% 5% 1%;
+  background-color: rgb(0, 143, 59);
+  padding: 2%;
+  color: aliceblue;
+  cursor: pointer;
+}
+.btnEnviar:hover{
+  background-color: rgb(0, 90, 60);
+  background: linear-gradient(rgb(0, 90, 60), rgb(24, 177, 88));
+}
+
+/*About*/
+
+.imagenCentral2{
+  height: 500px;
+  cursor: pointer;
+  object-fit: contain;
+  border-radius: 100%;
+}
+
+.imagenCentral2:hover{
+  -webkit-filter: saturate(250%);
+  filter: saturate(250%);
+}
+
+
+/*Pagina error*/
+
+.bodySinPag{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(2, 32, 30);
+  background: linear-gradient(rgb(1, 22, 20), rgb(3, 75, 47));
+  width: 100vw;
+  height: 100vh;
+}
+
+.texto {
+  margin: 15% 2% 0 20%;
+  font-family: 'Concert One', cursive;
+  font-size: 100px;
+  color: aliceblue;
+}
+
+.texto2{
+  margin: 20% 2% 0 1%;
+  font-family: 'Concert One', cursive;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+/*Contador*/
+
+.bodyContador{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.contenedorContador{
+  text-align: center;
+  background-color: aliceblue;
+  height: 75%;
+  width: 20%;
+  padding: 2%;
+  margin: 1% 0 1% 38%;
+  border-radius: 10%;
+}
+
+.contador{
+  color: rgb(3, 75, 47);
+  font-size: 28px;
+}
+
+.btnCambio{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border: 1px;
+  border-color: rgb(1, 49, 33);
+  margin: 2% 1% 5% 1%;
+  background-color: rgb(0, 143, 59);
+  padding: 2%;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 15%;
+}
+.btnCambio:hover{
+  background-color: rgb(0, 90, 60);
+  background: linear-gradient(rgb(0, 90, 60), rgb(24, 177, 88));
+}
+
+.imgContador{
+  height: 300px;
+  object-fit: contain;
+}
+
+.imgContador.activo{
+  filter: grayscale(50%);
+}
+
+.imgContador.inactivo{
+  filter: grayscale(0%);
+}
+
+/*Galeria*/
+
+.imgG{
+  height: 200px;
+  object-fit: contain;
+}
+
+.imgG.pares{
+  filter: brightness(150%);
+}
+
+.imgG.impares{
+  filter: brightness(100%);
+}
+
+.btnCambioG.pares{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border: 1px;
+  border-color: rgb(1, 49, 33);
+  margin: 2% 1% 5% 1%;
+  background-color: rgb(0, 143, 59);
+  padding: 2%;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.btnCambioG.impares{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border: 1px;
+  border-color: rgb(0, 143, 59);
+  margin: 2% 1% 5% 1%;
+  background-color: rgb(1, 49, 33);
+  padding: 2%;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+/*Formularios*/
+
+.bodyPagFormularios{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: rgb(2, 32, 30);
+  background: linear-gradient(rgb(1, 22, 20), rgb(3, 75, 47));
+  justify-content: center;
+}
+
+.bodyPagLogin{
+  min-height: 100vh;
+  text-align: center;
+}
+
+.main img:hover{
+  width: 400px;
+  height: 400px;
+  box-shadow: 3px 3px 20px rgb(207, 207, 207);
+}
+
+.formLogin{
+  width: 23%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 0 36%;
+}
+
+.txt_field{
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.txt_field input{
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  width: 100%;
+  height: 40px;
+}
+
+
+.txt_field textarea{
+  border: 1px solid #7a7a7a;
+  outline: none;
+  transition: all 200ms ease;
+}
+
+.txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  transition: .5s;
+}
+
+.txt_field span::before{
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: rgba(0, 255, 106, 0.9);
+  transition: .5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+  top: -4px;
+  color: rgba(0, 255, 106, 0.9);
+}
+
+
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+  width: 100%;
+}
+
+.labelForm{
+  margin: 0.1rem 0 0.1rem 0;
+}
+
+.divbtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btnSubmit{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border: 1px;
+  border-color: rgb(1, 49, 33);
+  margin: 7% 0px 5%;
+  background-color: rgb(0, 143, 59);
+  padding: 7.5%;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.btnSubmit:hover{
+  background-color: rgb(0, 90, 60);
+  background: linear-gradient(rgb(0, 90, 60), rgb(24, 177, 88));
+}
+
+#btnLogin{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border: 1px;
+  border-color: rgb(1, 49, 33);
+  margin: 2% 5% 5% 0px;
+  background-color: rgb(0, 143, 59);
+  padding: 2%;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+#btnLogin:hover{
+  background-color: rgb(0, 90, 60);
+  background: linear-gradient(rgb(0, 90, 60), rgb(24, 177, 88));
+}
+
